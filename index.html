@@ -10,15 +10,18 @@
 <body>
     <div class="container">     
             <form class="search" action="#" onsubmit="event.preventDefault();searchMovies()">
-                <h1>Buscador Peliculas </h1>
-                <input id="title" type="text">
+                <h1> Peliculas </h1>
+                <span>
+                    Buscar por Titulo
+                    <input id="title" type="text">
+                </span>
                 <button type="submit">Buscar</button>
             </form>
         <div class="card">
             <img height="400" width="100%"  id="movie_img" alt="moviimg">
             <div class="inf"></div>
         </div>
-        <h3>Favoritas</h3>
+       
         <div class="allcard"></div>
     </div>
 </body>
